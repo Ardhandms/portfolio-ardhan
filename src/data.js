@@ -5,7 +5,7 @@ export const projects = [
       description:
         "Sertifikat SOC Analyst dari Cyber Academy Indonesia",
       image: "../assets/images/project1.png",
-      link: "../assets/SOC.pdf",
+      link: "../assets/images/pro1.png",
     },
     {
       title: "Cybersecurity Course Level Basic - ITBOX",
@@ -13,6 +13,6 @@ export const projects = [
       description:
         "Sertifikat Cybersecurity Level Basic yang mempelajari bagaimana pentester bekerja, malware analyst, dan masih banyak lagi.",
       image: "../assets/images/project2.png",
-      link: "../assets/BasicIT.pdf",
+      link: "../assets/images/pro2.png",
     },
   ];
