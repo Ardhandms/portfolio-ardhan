@@ -1,18 +1,18 @@
 export const projects = [
     {
-      title: "Laravel E Commerce",
-      subtitle: "Laravel",
+      title: "SOC Analyst Course - Cyber Academy Indonesia",
+      subtitle: "SOC Analyst",
       description:
-        "Tampilan sederhana dari beranda Web menggunakan web (Gambar dan projek hanya sample)",
+        "Sertifikat SOC Analyst dari Cyber Academy Indonesia",
       image: "../assets/images/project1.png",
-      link: "https://ecommerceiq.asia/?gclid=CjwKCAjwmbqoBhAgEiwACIjzEOZvvfPxEIbQJKkS4Lqa-rKe9s94tmT6TnXOqKHXfRSdNmNu7Znn2RoCbAoQAvD_BwE",
+      link: "../assets/SOC.pdf",
     },
     {
-      title: "React Website",
-      subtitle: "React JS",
+      title: "Cybersecurity Course Level Basic - ITBOX",
+      subtitle: "Cybersecurity",
       description:
-        "Tampilan Webisite menggunakan react js (Gambar dan projek hanya sample)",
+        "Sertifikat Cybersecurity Level Basic yang mempelajari bagaimana pentester bekerja, malware analyst, dan masih banyak lagi.",
       image: "../assets/images/project2.png",
-      link: "https://www.cavai.com/",
+      link: "../assets/BasicIT.pdf",
     },
   ];
