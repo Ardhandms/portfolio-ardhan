@@ -1,6 +1,6 @@
 export const projects = [
     {
-      title: "SOC Analyst Course - Cyber Academy Indonesia",
+      title: "Security Operation Center Analyst Course - Cyber Academy Indonesia",
       subtitle: "SOC Analyst",
       description:
         "Sertifikat SOC Analyst dari Cyber Academy Indonesia",
