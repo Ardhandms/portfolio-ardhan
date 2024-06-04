@@ -1,11 +1,10 @@
 import React from "react";
 
 export default function Contact() {
-    const [name, setName] = React.useState("");
-    const [email, setEmail] = React.useState("");
-    const [message, setMessage] = React.useState("");
+  const [name, setName] = React.useState("");
+  const [email, setEmail] = React.useState("");
+  const [message, setMessage] = React.useState("");
 
-    
   function encode(data) {
     return Object.keys(data)
       .map(
@@ -44,6 +43,10 @@ export default function Contact() {
                 EMAIL
               </h2>
               <a className="text-indigo-400 leading-relaxed">
+                ardhandimas34@email.com
+              </a>
+              <br />
+              <a className="text-indigo-400 leading-relaxed">
                 ardhandimas9@email.com
               </a>
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
@@ -56,24 +59,19 @@ export default function Contact() {
         <form
           netlify
           name="contact"
-          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+          className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
+        >
           <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font">
             Hubungi aku
           </h2>
-          <p className="leading-relaxed mb-5">
-            Temukan aku di sosial mediaku.
-          </p>
+          <p className="leading-relaxed mb-5">Temukan aku di sosial mediaku.</p>
           <div className="relative mb-4 flex space-x-8">
-              <a href="https://www.instagram.com/ardhandms_?igsh=a3ZscDVseWMwYXQx">
-                  <img 
-                    src="../assets/images/instagram.png"
-                  />
-              </a>
-              <a href="https://wa.me/082320997062">
-                  <img 
-                    src="../assets/images/whatsapp.png"
-                  />
-              </a>
+            <a href="https://www.instagram.com/ardhandms_?igsh=a3ZscDVseWMwYXQx">
+              <img src="../assets/images/instagram.png" />
+            </a>
+            <a href="https://wa.me/082320997062">
+              <img src="../assets/images/whatsapp.png" />
+            </a>
           </div>
         </form>
       </div>

@@ -12,15 +12,20 @@ export default function Projects() {
             Projects and Skill I've Achieve
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-            Berikut adalah projek dan skill yang telah aku tempuh selama ini. Tentunya kedepannya akan semakin banyak lagi projek dan skill yang akan ku raih!!!
+            Ini adalah projek dan skill yang telah aku tempuh selama ini.
+            Tentunya kedepannya akan semakin banyak lagi projek dan skill yang
+            akan ku raih!!!
           </p>
+          <p>----------------------------------</p>
+          <p>Oh iya, tahan gambar projekku untuk melihat deskripsi nya yaa</p>
         </div>
         <div className="flex flex-wrap -m-4">
           {projects.map((project) => (
             <a
               href={project.link}
               key={project.image}
-              className="sm:w-1/2 w-100 p-4">
+              className="sm:w-1/2 w-100 p-4"
+            >
               <div className="flex relative">
                 <img
                   alt="gallery"
